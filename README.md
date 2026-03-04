@@ -1,7 +1,7 @@
 # 🛡️ Velora OS - Akıllı Kişisel Asistan & Şifre Yöneticisi
 ### (Microservices + AI Agents + Secure Vault + Monitoring)
-Dockerized REST API built with Spring Boot, PostgreSQL and containerized deployment using Docker Compose. 
-
+VeloraAPI is a containerized backend service built with Python.  
+The project focuses on REST API development and containerized deployment using Docker.
 
 
 Not: Proje docker-compose up --build komutu ile çalıştırılmak üzere tasarlanmıştır. Veritabanının (PostgreSQL) sağlık kontrolü (healthcheck) tamamlanmadan Backend servisi başlamayacaktır, bu nedenle ilk açılışta lütfen 30-60 saniye bekleyiniz. Test ortamında port çakışması yaşanmaması için 80 ve 8000 portlarının boş olduğundan emin olunuz.
